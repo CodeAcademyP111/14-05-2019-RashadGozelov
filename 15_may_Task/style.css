@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.aside{
+    width: 250px;
+    height: 743px;
+    background-color: black;
+    margin-left: -250px;
+    position: absolute;
+}
+#button{
+    position: absolute;
+    left: 265px;
+    top: 100px;
+    padding: 10px;
+    font-size: 17px;
+    background-color: darkslategrey;
+    color: white;
+    border: none;
+}
+#button:hover{
+    box-shadow: 1px 1px 12px black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+ .aside ul{
+    list-style-type: none;
+    position: absolute;
+    top: 20px;
+    line-height: 47px;
+    font-size: 30px;
+}
+.aside ul a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.699);;    
+}
+.aside ul a:hover{
+    color: white;
+    transition: 1.5s;
+}
+.aside .icon{
+    color: rgba(255, 255, 255, 0.699);
+    position: absolute;
+    top: 23px;
+    left: 205px;
+    font-size: 27px;
+}
+.aside .icon:hover{
+    cursor: pointer;
+    color: white;
+    transition: 1.5s;
+    border: none;
+}
+#button2{
+    position: absolute;
+    left: 265px;
+    top: 175px;
+    padding: 10px;
+    font-size: 17px;
+    background-color: darkslategrey;
+    color: white;
+    border: none;
+}
+#button2:hover{
+    box-shadow: 1px 1px 12px black;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+}
